@@ -1,13 +1,12 @@
 /**
+ * foreknow
  * Java面向对象的语言
  * Java能够做什么：Web网站 手机端(Android  ios)
  * Java的程序：1.Java源文件 xxx.java   2.字节码文件 xxx.class
- * <p>
  * Java中的变量以及数据类型
  * Java中的数据类型8种
  * 1.基本类型 整型(byte short int long)   浮点型（float double）   布尔型(boolean)  字符型(char)
  * 2.引用类型(基本类型以外的类型都是引用类型)
- * <p>
  * 数据类型的转换
  */
 public class Demo1 {
