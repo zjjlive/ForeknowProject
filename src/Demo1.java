@@ -1,30 +1,27 @@
 /**
- * 张俊
- * 这是今天我们创建的类
  * Java面向对象的语言
  * Java能够做什么：Web网站 手机端(Android  ios)
  * Java的程序：1.Java源文件 xxx.java   2.字节码文件 xxx.class
- *
+ * <p>
  * Java中的变量以及数据类型
  * Java中的数据类型8种
  * 1.基本类型 整型(byte short int long)   浮点型（float double）   布尔型(boolean)  字符型(char)
  * 2.引用类型(基本类型以外的类型都是引用类型)
- *
+ * <p>
  * 数据类型的转换
- *
  */
 public class Demo1 {
     public static void main(String[] args) {
-        System.out.println("abc"+" def");
+        System.out.println("abc" + " def");
         //基本数据类型8种
-//        byte b = 1222222;
-//        short s = 14;
+        //byte b = 1222222;
+        //short s = 14;
         int age = 13;
-//        long l = 231231231;
-//        System.out.println(b);
-//        System.out.println(s);
-        System.out.println("你的年龄是："+age);
-//        System.out.println(l);
+        //long l = 231231231;
+        // System.out.println(b);
+        //System.out.println(s);
+        System.out.println("你的年龄是：" + age);
+        //System.out.println(l);
 
         float f = 3.14F;
         System.out.println(f);
@@ -62,30 +59,25 @@ public class Demo1 {
         int ages = 23;
         //char ccc = 'M';
         boolean is = true;
-        double dddd = money+ages;
+        double dddd = money + ages;
         System.out.println(dddd);
-//        furscience.com
+        //furscience.com
 
         System.out.println("-----------------------------");
         //Java中的运算符+ - * / % ++ -- 算术运算符
         int k = 5;
         int j = 2;
-//        System.out.println(k+j);
-//        System.out.println(k-j);
-//        System.out.println(k*j);
-//        System.out.println(k/j);
-//        System.out.println(k++);
-//        System.out.println(j--);
-        System.out.println(k%j);//k除以j所得到的余数
-
-
+        //System.out.println(k+j);
+        //System.out.println(k-j);
+        //System.out.println(k*j);
+        //System.out.println(k/j);
+        //System.out.println(k++);
+        //System.out.println(j--);
+        System.out.println(k % j);//k除以j所得到的余数
         int y = 1;
         int s = ++y;//先将y加一 ,然后再赋值给s变量
         System.out.println(s);//2
-
-
         //赋值运算符
-
 
     }
 }
